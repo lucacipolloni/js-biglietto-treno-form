@@ -45,9 +45,9 @@
         </div>
       </section>
 
-      <section id="section-form-biglietto">
+      <section id="section-form-ticket">
         <div class="container mt-5">
-          <form class="row g-3" id="form-biglietto">
+          <form class="row g-3" id="form-ticket">
             <div class="col-4">
               <label for="fullname-input" class="form-label"
                 >Nome Cognome
@@ -78,6 +78,34 @@
               />
             </div>
           </form>
+        </div>
+      </section>
+
+      <section id="section-ticket" class="d-none">
+        <div class="container mt-5">
+          <div class="row g-0">
+            <div class="col">
+              <div>Nome passeggero</div>
+              <div class="fw-bold" id="fullname-ticket"></div>
+            </div>
+            <div class="col">
+              <div>Offerta</div>
+              <div class="fw-bold" id="type-ticket"></div>
+            </div>
+            <div class="col">
+              <div>Carrozza</div>
+              <div class="fw-bold" id="coach-ticket"></div>
+            </div>
+            <div class="col">
+              <div>Codice CP</div>
+              <div class="fw-bold" id="cp-code-ticket"></div>
+            </div>
+            <div class="col">
+              <div>Costo biglietto</div>
+              <div class="fw-bold" id="price-ticket"></div>
+              <div class="d-none text-danger" id="discount-ticket"></div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
